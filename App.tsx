@@ -2,10 +2,10 @@ import React, { useState, useRef, useCallback } from 'react';
 import { Camera, Upload, Trash2, Loader2, Table as TableIcon, FileText, Sparkles, Scan, Crop } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import { scanImage, ScanResult } from './gemini';
-import { ResultView } from './components/ResultView';
-import { CropModal } from './components/CropModal';
-import { LandingPage } from './components/LandingPage';
-import { AdBanner } from './components/AdBanner';
+import { ResultView } from './ResultView';
+import { CropModal } from './CropModal';
+import { LandingPage } from './LandingPage';
+import { AdBanner } from './AdBanner';
 
 export default function App() {
   const [hasStarted, setHasStarted] = useState(false);
