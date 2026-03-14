@@ -1,7 +1,7 @@
 import React, { useState, useRef, useCallback } from 'react';
 import { Camera, Upload, Trash2, Loader2, Table as TableIcon, FileText, Sparkles, Scan, Crop } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
-import { scanImage, ScanResult } from './services/gemini';
+import { scanImage, ScanResult } from './gemini';
 import { ResultView } from './components/ResultView';
 import { CropModal } from './components/CropModal';
 import { LandingPage } from './components/LandingPage';
