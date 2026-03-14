@@ -1,7 +1,7 @@
 import React from 'react';
 import { Copy, Check, Table as TableIcon, FileText, Languages, Loader2, Download, FileDown, FileSpreadsheet, FileJson, ChevronLeft, ChevronRight, Trash2, X, ChevronUp, ChevronDown, Edit3, Save } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
-import { TableData, translateContent } from '../services/gemini';
+import { TableData, translateContent } from '../gemini';
 import { jsPDF } from 'jspdf';
 import autoTable from 'jspdf-autotable';
 import domtoimage from 'dom-to-image-more';
